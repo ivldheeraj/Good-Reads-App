@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "datastax.astra",
+      "type": "com.goodreads.connection.DataStaxAstraProperties",
+      "sourceType": "com.goodreads.connection.DataStaxAstraProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "datastax.astra.secure-connect-bundle",
+      "type": "java.io.File",
+      "sourceType": "com.goodreads.connection.DataStaxAstraProperties"
+    }
+  ],
+  "hints": []
+}

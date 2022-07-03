@@ -1,0 +1,33 @@
+datadump.location:
+    author: /Users/vinugant/Downloads/test-authors.txt
+    works: /Users/vinugant/Downloads/test-works.txt 
+
+
+spring:
+  application:
+    name: betterreads
+  
+ 
+  data:
+    cassandra:
+      keyspace-name: main
+      username: ckMOKLCCnyuGZMUmZftcDljh
+      password: sv1,,6rkn9mpAreJW6wDapz-FgY5TILHoqZ-.fshgjRFjWlN,jvSmEpmH+fb872SWC-W-1tfgTLHwMP2s_DvipRwaJRqJNuIoFQ4ACQJYyc_K_AihxOsBDGoyxZMOXBc
+      schema-action: create-if-not-exists
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+
+datastax.astra:
+    secure-connect-bundle: secure-connect-goodreads.zip
+
+
+astra.db:
+    id: 54f44e72-f2b2-4534-97d6-315b5632104f
+    region: us-west-2
+    keyspace: main
+    application.token: AstraCS:ckMOKLCCnyuGZMUmZftcDljh:76d2521c463a407623af9fac0921862376959252a058fdc82d6b34609f6e0836
+
+#AstraCS:ckMOKLCCnyuGZMUmZftcDljh:76d2521c463a407623af9fac0921862376959252a058fdc82d6b34609f6e0836
